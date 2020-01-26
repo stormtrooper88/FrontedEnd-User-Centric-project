@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "front";
+    src: url("assests/fonts/front.woff") format("woff"), url("assests/fonts/front.woff2") format("woff2")
+}
+
+@font-face {
+    font-family: "back";
+    src: url("assests/fonts/back.woff") format("woff"), url("assests/fonts/back.woff2") format("woff2")
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100vh;
+}
+
+body {
+    margin: 0;
+ background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.page-title {
+    color: #000000;
+    font-family: front, sans-serif;
+    font-weight: normal;
+    text-align: center;
+    font-size: 6em;
+
+}
