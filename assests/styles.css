@@ -48,19 +48,20 @@ body {
    grid-gap: 10px;
    margin: 50px;
    justify-content: center;
+   perspective: 500px;
 }
 
 .card {
+    position: relative;
     background-color: black;
     height: 175px;
     width: 125px;
-
 }
 
 .card.visible .card-back {
-transform: rotate(180deg);
+transform: rotateY(-180deg);
 }
 
 .card.visible .card-front {
-    transform: rotateX(0)
+    transform: rotateY(0)
 }
